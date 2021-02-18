@@ -1,0 +1,36 @@
+B"H
+
+
+
+
+
+set successorAndNonSuccessorMix 
+
+set numberOfCorrectAnswers = 0
+set numberOfWrongGuesses = 0
+
+loop thru those 3 leaders:
+
+    display 3 of successorAndNonSuccessorMix in order then add "None of the above" at the end
+
+    while numberOfWrongGuesses < 3:
+
+        get user answer
+
+        if correct:
+           numberOfCorrectAnswers++
+           break
+        else
+           numberOfWrongGuesses++
+
+
+    if numberOfWrongGuesses = 3
+       break
+
+if numberOfWrongGuesses = 3
+   "You Lost, you got 3 wrong answers. You answered "+ numberOfCorrectAnswers +" question(s)"
+else 
+   "You Won!!!! You got "+ numberOfWrongGuesses +" wrong guesses. Good job!"              
+
+    
+     
